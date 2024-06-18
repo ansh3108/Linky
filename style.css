@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-*{
+* {
     font-family: 'Nunito', sans-serif;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    outline: none; border: none;
+    outline: none;
+    border: none;
     text-emphasis: none;
     text-transform: capitalize;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -20,53 +22,53 @@
     padding-bottom: 80px;
 }
 
-.container .content{
+.container .content {
     flex: 1 1 400px;
 }
 
-.container .image{
+.container .image {
     flex: 1 1 400px;
 }
 
-.container .image img{
+.container .image img {
     width: 100%;
 }
 
-.container .content .title{
+.container .content .title {
     font-size: 45px;
     text-transform: uppercase;
     color: #2980b9;
 }
 
-.container .content .p{
+.container .content p {
     color: #666;
 }
 
-.container .content .count-down{
+.container .count-down {
     display: flex;
     gap: 15px;
     padding: 10px 0;
 }
 
-.container .content .count-down .box{
+.container .count-down .box {
     padding: 5px;
     background-color: #fff;
-    border: 1px solid #3333;
+    border: 1px solid #333;
     text-align: center;
     flex: 1 1 20px;
 }
 
-.container .content .count-down .box h3{
+.container .count-down .box h3 {
     font-size: 50px;
-    color: #333;   
+    color: #333;
 }
 
-.container .content .count-down .box span{
+.container .count-down .box span {
     color: #2980b9;
     font-size: 20px;
 }
 
-.container .container .btn{
+.container .btn {
     display: inline-block;
     padding: 8px 50px;
     margin: 10px 0;
@@ -76,46 +78,36 @@
     transition: .2s ease-out;
 }
 
-.container .container .btn:hover{
+.container .btn:hover {
     letter-spacing: 2px;
 }
 
-
-
-
-
-
-
-
-@media (max-width:500px){
-
-    .container{
+@media (max-width: 500px) {
+    .container {
         padding: 20px;
     }
 
-    .container .content{
+    .content {
         text-align: center;
     }
 
-    .container .content .title{
+    .title {
         font-size: 35px;
     }
 
-    .container .content p{
+    p {
         font-size: 14px;
     }
 
-    .container .content .count-down{
-        gap: 5px;   
+    .count-down {
+        gap: 5px;
     }
 
-    .container .content .count-down .box h3{
+    .box h3 {
         font-size: 30px;
-
     }
 
-    .container .content .count-down .box span{
+    .box span {
         font-size: 15px;
     }
-
 }
